@@ -1,0 +1,98 @@
+$light: "#f8f8f8";
+$tertiary: #327fbf;
+$dimGray: #747474;
+$red: #bf3a32;
+$white: #ffffff;
+$sfProText: "SFProText";
+$Inter: "Inter";
+$nero: #212121;
+$dark: #4b4b4b;
+$gray: #d6d6d6;
+$secondary: #199fc8;
+$gray92: #ebebeb;
+$lightBlack: #3e3a37;
+$kilimanjaro: #3a3532;
+$limegreen: #32cd32;
+$fontSize15: 15px;
+$fontSize18: 18px;
+$fontSize10: 10px;
+$fontSize28: 28px;
+$Flama: "Flama";
+$sourceSansPro: "SourceSansPro";
+
+.textInput {
+  width: 422px;
+  height: 55px;
+  background-color: $white;
+  border-radius: 8px;
+  border-color: $dimGray;
+  text-indent: 10px;
+}
+
+.textInput:focus {
+  outline: none;
+  //border-bottom: 2px solid $dimGray;
+}
+
+.textInput:invalid {
+  border-bottom: 1px solid $red;
+}
+
+.btn-large {
+  width: 120px;
+  height: 55px;
+
+  &.MuiButtonBase-root:hover {
+    background-color: $limegreen;
+  }
+
+  &.MuiButtonBase-root {
+    background-color: $limegreen;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    color: $white;
+    font-family: $sfProText;
+    font-style: normal;
+  }
+}
+
+.male-box {
+  width: 120px;
+  height: 60px;
+  border: 2px solid $dimGray;
+  border-radius: 8px;
+}
+.textInputError {
+  color: $red;
+
+  &.MuiTypography-body1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+  }
+}
+
+.genderInputError {
+  color: $red;
+
+  &.MuiTypography-body1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-right: 100px;
+    letter-spacing: 0.04em;
+  }
+}
+.termsInputError {
+  color: $red;
+
+  &.MuiTypography-body1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-left: 10px;
+    letter-spacing: 0.04em;
+  }
+}
